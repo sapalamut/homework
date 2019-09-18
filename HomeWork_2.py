@@ -53,5 +53,3 @@ print(f"{roll} / {ai_dice_value}")
 
 print(f'Your score is {score} \n')
 print("Better luck next time...")
-
-
