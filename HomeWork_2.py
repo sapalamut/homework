@@ -19,7 +19,7 @@ game = input(f'Nice to meet you {name} - hit ENTER to play a Dice Game \n')
 #----------------------------GAME-----------------------
 
 score_decrement = 5
-score_incerement = 15
+score_increment = 15
 score = 0
 roll = int(input("Roll the dice 1: "))
 time_in_millis = int(datetime.now().timestamp() * 1000)
