@@ -44,3 +44,22 @@ if weather == 'sunny':
 		print(f'So {condition}')
 
 # Sample:6
+soccer_team = 11
+weather = 'good'
+if soccer_team == 12 and weather == 'good':
+	print('Yes we are playing')
+else:
+	print('We are not')
+
+# Sample:7
+
+a = 1
+b = 2
+c = 3
+
+if a > b:
+	print(False)
+elif b > c:
+	print(False)
+else:
+	print("None of the answers is true")			
