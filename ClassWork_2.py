@@ -52,7 +52,6 @@ else:
 	print('We are not')
 
 # Sample:7
-
 a = 1
 b = 2
 c = 3
@@ -62,4 +61,12 @@ if a > b:
 elif b > c:
 	print(False)
 else:
-	print("None of the answers is true")			
+	print("None of the answers is true")
+
+# Sample:8
+num_enter = int(input('please enter a number: '))
+if num_enter <= 0:
+	print('Negatine')
+else:
+	print('Positive')	
+							
