@@ -69,4 +69,19 @@ if num_enter <= 0:
 	print('Negatine')
 else:
 	print('Positive')	
-							
+
+# Sample:9
+ent_tempo =int(input('Enter the temperature outside: '))
+weather_1 = 45
+weather_2 = 35
+weather_3 = 20
+weather_4 = 0
+if ent_tempo >= weather_1:
+	print('It\'s very hot take off all your clothes')
+elif ent_tempo <= weather_2:
+	print('It\'s OK you can stay in t shirt')
+elif ent_tempo <= weather_3:
+	print('It"s getting cold put some clothes on')
+else:
+	ent_tempo <= weather_4
+	print('You are going to die, it\'s very cold')			  
