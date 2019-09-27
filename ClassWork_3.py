@@ -29,4 +29,17 @@ sum  = 0
 for i in range(1, 4):
 	next_number = int(input('Enter number # ' + str(i) + ': ')) 
 	sum += next_number
-print(sum/3)	
+print(sum / 3)
+
+# Ex:4
+a = 'hello world'
+
+for i in a:
+	print(i)	
+
+# Ex:5
+
+i = 0
+while i < 10:
+	print(i)
+	i += 1
