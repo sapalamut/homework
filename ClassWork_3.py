@@ -1,3 +1,5 @@
+import random 
+
 # For Loops
 
 # Ex:1
@@ -43,3 +45,21 @@ i = 0
 while i < 10:
 	print(i)
 	i += 1
+
+# Ex:6
+
+hidden_number = random.randint(1,100)
+
+user_guess	=  0
+while not user_guess == hidden_number:
+
+	user_guess = int(input('Guess the number: '))
+
+	if user_guess > hidden_number:
+		print('Too High!')
+
+	elif user_guess < hidden_number:
+		print('Too Low!')
+
+	else:
+		print('That\'s Right!')		
