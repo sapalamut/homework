@@ -44,4 +44,51 @@ def even_or_odd(number):
 print_num = int(input("Enter a number: "))
 
 print(even_or_odd(int(float(print_num))))
+print('\n')
 
+# Ex:6
+def two_numbers(num1, num2):
+	return num1 + num2
+print(two_numbers(1, 2))
+
+# Ex:7
+summing = 0
+
+def add_numbers(num1, num2):
+	summing =  num1 + num2
+
+	add_numbers(5,6)
+
+print(summing)
+
+
+# Ex:8
+def two_numbers(num1, num2 = 9):
+	return num1 + num2
+print(two_numbers(1,))
+
+# Ex:9
+
+def currency_amount(amount, currency="USD"):
+    amount = str(amount)
+    if currency == "JPY":
+        return "¥" + amount
+    elif currency == "USD":
+        return "$" + amount    
+    elif currency == "EUR":
+        return "€" + amount
+    else:
+        return amount
+print(currency_amount(5, "JPY"))
+
+Ex:10
+
+def check_balance(balance, entr_amount):
+	entr_amount = int(input('Taxes are: '))
+	if entr_amount <= balance:
+		return True
+	else:
+		return False	
+
+
+print(check_balance(400, 1000))
