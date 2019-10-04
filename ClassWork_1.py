@@ -1,3 +1,5 @@
+# Ex:1
+
 name = input('Please enter your name: ')
 birthdate = int(input('Please enter the year you were born: '))
 age = 2019 - birthdate

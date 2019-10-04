@@ -81,7 +81,7 @@ def currency_amount(amount, currency="USD"):
         return amount
 print(currency_amount(5, "JPY"))
 
-Ex:10
+#Ex:10
 
 def check_balance(balance, entr_amount):
 	entr_amount = int(input('Taxes are: '))
