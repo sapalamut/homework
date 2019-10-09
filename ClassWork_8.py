@@ -16,16 +16,19 @@ user_info = tuple()
 
 print("Your name is " + user_info[0])
 print("Your surname is " + user_info[1])
+print('\n')
 
 # Ex:3
 nested_tuple = ((1,2), (3,4), (5,6))
 
 print(nested_tuple[0])
 print(nested_tuple[0][0], nested_tuple[1][0])
+print('\n')
 
 # Ex:4
 a = [1,2,3]
 print(a[0])
+print('\n')
 
 # Ex:5
 my_list = [1, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -44,4 +47,33 @@ print(my_list, ": Popping")
 
 del my_list[-5:]
 print(my_list, ": After deleting the last five elements")
+print('\n')
+
+# Ex:6
+my_list = [1, 2, 3, 4]
+
+my_list.append(5)
+print(my_list, ": After appending five")
+
+new_list = [6, 7, 8]
+my_list.extend(new_list)
+print(my_list, ": After extending")
+
+my_list.insert(0,0)
+print(my_list, ": After inserting zero")
+print('\n')
+
+# Ex:7
+def average(in_list):
+	sum = 0
+	for number in in_list:
+		sum += number
+	return sum / len(in_list)
+
+my_list1 = [1, 2, 3, 4, 5, 6, 7]
+my_list2 = [91, 92, 93, 94, 95, 96, 97]
+
+print("The average of my_list1 is:", average(my_list1))
+print("The average of my_list2 is:", average(my_list2))
+
 
