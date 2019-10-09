@@ -32,9 +32,8 @@ count = 0
 for i in entr_smth:
 	if ord(i) == sign_is:
 		count += 1	
-		print(f'You have {count} of !' )		
-	else:
-		print('No matches!')	
+print(f'You have {count} of !' )		
+	
 
 # Ex:2
 a = 'ABCDEFGH'
@@ -64,6 +63,18 @@ print(my_string.capitalize())
 print(my_string.lower())
 print(my_string.title())
 print(my_string.replace("some", "any"))
+
+
+# Ex:5
+def get_niddle_three_charecters(sample_str):
+	midle_index  = int(len(sample_str) /2)
+	print("Original String is", sample_str)
+	midfle_three = sample_str[midle_index-1:midle_index+2]
+	print("Middle three chars are", midfle_three)
+
+print(get_niddle_three_charecters("JhonDipPeta"))
+print(get_niddle_three_charecters("Jasonay"))
+
 
 
 
