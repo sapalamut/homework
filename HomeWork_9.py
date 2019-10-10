@@ -34,7 +34,18 @@ entrtd_val = input('Enter a word please: ')
 print('The word you entered is:', ending(entrtd_val))
 print('\n')
 # Ex:3
+def poor_and_not(some_str):
+    
+    wrd_not = some_str.find('not')
+    wrd_poor = some_str.find('poor')
+    
+    if wrd_not < wrd_poor:
+        some_str = some_str[0:wrd_not] + "good"
+        
+    return some_str
 
+ent_val = input('Enter a sentence with "not" and "poor": ')
+print('The sentence after replacing:', poor_and_not(ent_val))
 
 
 
