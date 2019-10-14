@@ -26,3 +26,36 @@ for key in fruits.keys():
 	if fruits[key] > 5:
 		print(key)
 
+# Ex:2
+python_students = {
+	'Gor Smbatyan': 26, 'David Grigoryan': 26, 'Vardges Hovhannisyan': 26, 
+	'Rafayel Kostanyan': 28, 'Khachatur Khachatryan': 23, 'Marat Yarumyan': 24, 
+	'Artur Altunyan': 23, 'Sedrak Harutyunyan': 24, 'Marianna Beglaryan': 25, 
+	'Vardges Davtyan': 28, 'Tigran Danielyan': 28, 'Gevorgyan Arno': 23, 
+	'Arthur Ananyan': 29, 'Arman Babayan': 28
+
+}
+
+python_students['Arman Babayan'] = 15
+python_students['Vardges Davtyan'] = 30
+
+print(python_students.keys())
+print(python_students.values())
+
+# Ex:3
+classes = {
+	'Math': ['David', 'Lucy', 'Dana'],
+	'Physics': ['Addison', 'Benjamin'],
+	'Chemistry': ['Sara', 'Pele']
+}
+
+print('Students in math class', classes['Math'])
+
+classes['Math'].append('Jirayr')
+
+
+print('Students in math class', classes['Math'])
+
+# Ex:4
+
+
