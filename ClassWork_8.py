@@ -75,5 +75,77 @@ my_list2 = [91, 92, 93, 94, 95, 96, 97]
 
 print("The average of my_list1 is:", average(my_list1))
 print("The average of my_list2 is:", average(my_list2))
+print('\n')
+
+# Ex:8 Same with Indexing
+def average(in_list):
+	sum = 0
+	for i in range(0, len(in_list)):
+		sum += in_list[i]
+	return sum / len(in_list)
+
+my_list1 = [1, 2, 3, 4, 5, 6, 7]
+my_list2 = [91, 92, 93, 94, 95, 96, 97]
+
+print("The average of my_list1 is:", average(my_list1))
+print("The average of my_list2 is:", average(my_list2))
+print('\n')
+
+# Ex:9
+def two_average(in_2d_list):
+	result = []
+
+	for num_list in in_2d_list:
+		sum = 0
+		for number in num_list:
+			sum += number
+
+		result.append(sum / len(num_list))
+
+	return result
+
+my_2d_list = [[61, 32, 12, 123], [123, 131, 131, 123], [4, 1, 2]]
+
+print("averages:", two_average(my_2d_list))
+
+# Ex:10
+def lists(my_list):
+	big = 0
+	for i in my_list:
+		if i > big:
+			big	= i
+list_one = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(f'The biggest number is {big}')
+
+# Ex:11
+new_list = [1, 2, 3, 4, 5, 6, 7, 7, 3, 3, 2, 2, 8, 9, 0]
+empty = []
+for i in new_list:
+	if i not empty:
+		empty.append(i)
+print(new_list)		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

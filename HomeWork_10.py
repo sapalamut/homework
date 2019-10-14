@@ -49,7 +49,7 @@ def sort_elements(list_1, list_2):
     print('We don"t have a match!')
     return False
     
-entr1 = input('Enter some words separated by space: ')
-entr2 = input('Enter some words separated by space: ')
+entr1 = input('Enter some words separated by commas: ')
+entr2 = input('Enter some words separated by commas: ')
 print(sort_elements(entr1.split(','), entr2.split(',')))
 
