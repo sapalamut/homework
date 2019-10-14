@@ -39,3 +39,17 @@ print('The longest word is:', longest_word(ent_val.split(' ')))
 print('\n')
 
 # Ex:4
+def sort_elements(list_1, list_2):
+    
+    for i in list_1:
+        for j in list_2:
+            if i == j:
+             print('We have a match!')
+             return True
+    print('We don"t have a match!')
+    return False
+    
+entr1 = input('Enter some words separated by space: ')
+entr2 = input('Enter some words separated by space: ')
+print(sort_elements(entr1.split(','), entr2.split(',')))
+
