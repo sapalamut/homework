@@ -124,7 +124,12 @@ empty = []
 for i in new_list:
 	if i not empty:
 		empty.append(i)
-print(new_list)		
+print(new_list)
+
+
+
+
+		
 
 
 

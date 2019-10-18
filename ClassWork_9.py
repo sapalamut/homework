@@ -46,3 +46,4 @@ for line in out_put_file:
 out_put_file.close()
 
 print(names_list)
+
