@@ -59,6 +59,9 @@ my_bank_account.getBalance()
 my_bank_account.withdraw(10.0)
 my_bank_account.getBalance()
 
+with open('BankAccount.txt', 'w') as file:
+           file.write(str(my_bank_account.getBalance()))
+
 # Ex
 class Person:
 	def __init__(self, name, eyecolor, age):
